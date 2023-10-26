@@ -174,7 +174,7 @@ namespace mobEvents {
     //% selector.defl=myEntitySelector
     //% group="Selectors"
     //% weight=50
-    export function setLimit(select: EntitySelector, limit: number) {
-        select._setRule(_EntitySelectorArgument.Limit, limit);
+    export function setLimit(selector: EntitySelector, limit: number) {
+        selector._setRule(_EntitySelectorArgument.Limit, limit);
     }
 }

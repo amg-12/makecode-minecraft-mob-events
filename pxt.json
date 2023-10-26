@@ -63,7 +63,8 @@
         "docs/zombie-villager.md",
         "apis.g.ts",
         "main.ts",
-        "README.md"
+        "README.md",
+        "icon.png"
     ],
     "testFiles": [],
     "supportedTargets": [
