@@ -4,11 +4,11 @@ This is an extension for Microsoft MakeCode for Minecraft Education that allows 
 
 Each mob has their own set of events. For example, here are two events for cow mobs:
 
-![MakeCode program with two chat commands that transform cows](./images/baby-adult.png)
+![MakeCode program with two chat commands that transform cows](https://github.com/microsoft/makecode-minecraft-mob-events/blob/main/images/baby-adult.png?raw=true)
 
 You can also control which mobs are affected by commands by adding rules to the selectors used to target them. Here's a program that explodes all creepers within 10 blocks of the player:
 
-![MakeCode program that explodes all creepers within 10 blocks of the player](./images/explode-creepers.png)
+![MakeCode program that explodes all creepers within 10 blocks of the player](https://github.com/microsoft/makecode-minecraft-mob-events/blob/main/images/explode-creepers.png?raw=true)
 
 Note that these blocks are not compatible with the TargetSelector type from the Mobs category.
 
