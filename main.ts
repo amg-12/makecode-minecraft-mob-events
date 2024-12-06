@@ -46,7 +46,9 @@ namespace mobEvents {
                 }
             }
 
-            const selector = `@e[${this.rules.map(r => `${r.argument}=${r.value}`).join(",")}]`;
+            const selector = this.rules.length > 0
+                ? `@e[${this.rules.map(r => `${r.argument}=${r.value}`).join(",")}]`
+                : "@e"
 
             this.rules = savedRules;
 
