@@ -50,7 +50,7 @@ for (const cat of allEvents) {
 	         *
 	         */
 	        //% blockId=mob_events_${enumName}
-			//% group=${cat["name"]} //% weight=${i--}
+	        //% group=${cat["name"]} //% weight=${i--}
 	        //% block="send ${name} event $command to $selector"
 	        //% selector.shadow=mob_events_create_selector
 	        //% help=github:${extName}/docs/${formatDocsPageName(name)}
@@ -180,7 +180,7 @@ if (fs.existsSync(path.join(homeDir, "pxt.json"))) {
 else {
     config = {
         "name": extName,
-        "version": "0.0.1",
+        "version": "0.0.2",
         "description": "An extension for controlling mobs in MakeCode for Minecraft Education",
         "dependencies": {
             "core": "*"
