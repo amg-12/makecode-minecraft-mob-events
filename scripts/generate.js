@@ -199,6 +199,7 @@ config.files = Object.keys(docs).map(d => `docs/${d}`).concat([
     "apis.g.ts",
     "main.ts",
     "README.md",
+    "icon.png"
 ]);
 
 fs.writeFileSync(path.join(homeDir, "pxt.json"), JSON.stringify(config, null, 4), "utf-8");

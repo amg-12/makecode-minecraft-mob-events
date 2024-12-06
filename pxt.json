@@ -63,7 +63,8 @@
         "docs/wither-skull-dangerous.md",
         "apis.g.ts",
         "main.ts",
-        "README.md"
+        "README.md",
+        "icon.png"
     ],
     "testFiles": [],
     "supportedTargets": [
