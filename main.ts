@@ -1,5 +1,5 @@
-//% block="Mob Events"
-//% color="#7e42f5"
+//% block="Mob Events" weight=55
+//% color="#7e42f5" icon="\uf1b0"
 namespace mobEvents {
     export enum _EntitySelectorArgument {
         Type,
