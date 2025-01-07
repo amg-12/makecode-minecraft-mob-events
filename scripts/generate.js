@@ -50,7 +50,8 @@ for (const cat of allEvents) {
 	         *
 	         */
 	        //% blockId=mob_events_${enumName}
-	        //% group=${cat["name"]} //% weight=${i--}
+	        //% group=${cat["name"]}
+	        //% weight=${i--}
 	        //% block="send ${name} event $command to $selector"
 	        //% selector.shadow=mob_events_create_selector
 	        //% help=github:${extName}/docs/${formatDocsPageName(name)}
